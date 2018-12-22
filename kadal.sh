@@ -645,7 +645,7 @@ do
               apt install root-repo
               apt install aircrack-ng -y
               echo $blue'['$green'+'$blue']'$green' installing success'$reset
-              echo $blue'['$yellow'!'$blue']'$yellow' Usage "You Must Install Sudo and Run With sudo airmon-ng" '
+              echo $blue'['$yellow'!'$blue']'$yellow' Usage "You Must Install Sudo and Run With sudo aircrack-ng" '
               sleep 2
 
           else
