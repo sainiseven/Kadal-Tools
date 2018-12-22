@@ -421,6 +421,7 @@ do
       echo $blue'['$green'+'$blue']'$green'Update..........'
       sleep 2
       cd /data/data/com.termux/files/home/Kadal-Tools
+      rm -rf kadal.sh
       apt update && apt upgrade -y
       apt install wget -y
       wget O- https://raw.githubusercontent.com/kadal15/Kadal-Tools/master/kadal.sh
@@ -817,6 +818,7 @@ do
           echo $blue'['$green'+'$blue']'$green'Update..........'
           sleep 2
           cd /data/data/com.termux/files/home/Kadal-Tools
+          rm -rf kadal.sh
           apt update && apt upgrade -y
           apt install wget -y
           wget O- https://raw.githubusercontent.com/kadal15/Kadal-Tools/master/kadal.sh
